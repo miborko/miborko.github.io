@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>szkolenie</title>
 </head>
+
 <body>
-    <p>zadanie-2</p>
+
+    <form method="POST" action="https://formspree.io/michal88borkowski@gmail.com">
+
+        <h1>Zapisz się na szkolenie już dziś</h1>
+
+        <label for="imie"></label>
+        <input type="text" name="imie" id="imie" placeholder="Imię"><br><br>
+
+        <label for="nazwisko"></label>
+        <input type="text" name="nazwisko" id="nazwisko" placeholder="Nazwisko"><br><br>
+
+        <label for="mail"></label>
+        <input type="text" name="mail" id="mail" placeholder="Twój mail"><br><br>
+
+        <label for="telefon"></label>
+        <input type="text" name="telefon" id="telefon" placeholder="Telefon"><br><br>
+
+        <label for="miasto">Miasto:</label>
+        <select name="miasto" id="miasto">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select><br><br>
+
+        <label for="plec">Płeć:</label><br>
+        <input type="radio" id="plec" value="mezczyzna" name="plec"> Mężczyzna <br>
+        <input type="radio" value="kobieta" name="plec"> Kobieta <br>
+        <input type="radio" value="inne" name="plec"> Inne <br><br>
+
+        <input type="checkbox" id="zgoda">
+        <label for="zgoda">Zgoda na przetwarzanie danych osobowych.</label><br><br>
+
+        <label for="wiadomosc">Wiadomość:</label><br>
+        <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10"></textarea><br><br>
+
+        <input type="submit" value="Wyślij">
+
+    </form>
+
+
+
+
+
 </body>
+
 </html>
