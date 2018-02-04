@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>szkolenie</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -13,7 +14,9 @@
         <h1>Zapisz się na szkolenie już dziś</h1>
 
         <label for="imie"></label>
-        <input type="text" name="imie" id="imie" placeholder="Imię"><br><br>
+        <input type="text" name="imie" id="imie" placeholder="Imię">
+
+        <br><br>
 
         <label for="nazwisko"></label>
         <input type="text" name="nazwisko" id="nazwisko" placeholder="Nazwisko"><br><br>
@@ -33,14 +36,15 @@
 
         <label for="plec">Płeć:</label><br>
         <input type="radio" id="plec" value="mezczyzna" name="plec"> Mężczyzna <br>
-        <input type="radio" value="kobieta" name="plec"> Kobieta <br>
-        <input type="radio" value="inne" name="plec"> Inne <br><br>
-
-        <input type="checkbox" id="zgoda" required>
-        <label for="zgoda">Zgoda na przetwarzanie danych osobowych.</label><br><br>
+        <input type="radio" value="kobieta" name="plec"> Kobieta <br><br>
 
         <label for="wiadomosc">Wiadomość:</label><br>
-        <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10"></textarea><br><br>
+        <textarea name="wiadomosc" id="wiadomosc" cols="20" rows="10"></textarea><br><br>
+
+        <input type="checkbox" id="zgoda" required>
+        <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych.</label><br><br>
+
+
 
         <input type="submit" value="Wyślij">
 

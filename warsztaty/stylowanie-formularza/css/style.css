@@ -1,0 +1,50 @@
+form{
+    background-color:#213b50;
+    padding: 20px;
+    width: 600px;
+    color: white;
+}
+
+input[type="text"], select, textarea{
+    background-color: cadetblue;
+}
+
+form input[type="submit"]{
+    background-color: greenyellow;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#wiadomosc:focus{
+    color: lightsalmon;
+}
+
+/*form input, form select{
+    margin-bottom: 10px;
+}
+
+form label{
+    display: block;
+    margin bottom: 5px;
+}
+
+form select, form input[typr="text"], form input[type"tel"], form input[type="mail"], form textarea{
+    width: 400px;
+    background-color: #2b4a64;
+    color: #fff;
+    border: #2b4a64 1px solid;
+    height: 25px;
+}
+
+form select:focus, form input:focus, form textarea:focus{
+    background-color: aliceblue;
+    border: #fff 1px solid;
+    outline:none;
+}*/
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+/*
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #222;
+    color: #eee;
+*/
+}
+
+/*
+figure {
+    display: inline-block;
+}
+*/
+/*
+
+#gallery {
+    text-align: center;
+    width: 100%;
+}
+*/
+
+@media (max-width:480px) {
+    .figure {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .figure {
+        width: 100%;
+    }
+}
+
+@media (max-width:992px) and (min-width:768px) {
+    .figure {
+        width: 50%;
+    }
+}
+
+@media (min-width:992px) {
+    .figure {
+        width: 33%;
+    }
+}
