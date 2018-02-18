@@ -13,11 +13,35 @@ var wyslij = document.getElementById("wyslij");
 var wiadomosc = document.getElementById("wiadomosc");
 
 function stanCheckbox() {
-    zgodaMarketingowa1.checked = this.checked;
+    zgodaMarketingowa1.checked = this.checked; //wszystkieZgody,checked
     zgodaMarketingowa2.checked = this.checked;
-    
+
     zgodaMarketingowa1.disabled = this.checked;
     zgodaMarketingowa2.disabled = this.checked;
 }
 
 wszystkieZgody.onchange = stanCheckbox;
+
+
+function walidujFormularz(event) {
+    event.preventDefault();
+    if (inputImie.value == "") {
+        var msgImie = document.createElement("li");
+        msgImie.innerHTML = "Wpisz imie"} 
+        wiadomosc.appendChild(msgImie);
+        event.preventDefault();
+}
+
+
+/*
+wyslij@to.addEventListener("click", walidujFormularz);
+*/
+
+
+
+
+
+
+
+
+
