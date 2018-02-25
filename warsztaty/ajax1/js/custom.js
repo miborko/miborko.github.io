@@ -46,7 +46,7 @@ function ajax( method, url ) {
 
     httpReq.onsuccess = function(response){
         var jsonObj = JSON.parse(response);
-        console.log(jsonObj);
+//        console.log(jsonObj);
         
         var par1 = document.createElement('p');
         var par2 = document.createElement('p');
