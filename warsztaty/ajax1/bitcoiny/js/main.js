@@ -20,7 +20,7 @@ $.getJSON('https://blockchain.info/pl/ticker', function(data){
     } else if (currentBuyPrice < parseFloat(data.PLN.buy)){
         buyArrow.removeAttr('class').addClass('fa fa-arrow-up');
     } else {
-        buyArrow.removeAttr('class').addClass('fa fa-minus-0');
+        buyArrow.removeAttr('class').addClass('fa fa-minus-o');
     }
     
     if(currentSellPrice > parseFloat(data.PLN.sell)){
@@ -28,7 +28,7 @@ $.getJSON('https://blockchain.info/pl/ticker', function(data){
     } else if (currentSellPrice < parseFloat(data.PLN.sell)){
         sellArrow.removeAttr('class').addClass('fa fa-arrow-up');
     } else {
-        sellArrow.removeAttr('class').addClass('fa fa-minus-0');
+        sellArrow.removeAttr('class').addClass('fa fa-minus-o');
     }
 });
     console.log('odswiezono');

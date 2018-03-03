@@ -1,0 +1,87 @@
+/*GENERAL STYLES - START*/
+
+body {
+    color: #777;
+    font-family: "RoboSlab", sans-serif;
+}
+
+/*GENERAL STYLES - END*/
+
+
+/*GENERAL NAVIGAION - START*/
+
+#main-nav {
+    background-color: lightpink;
+}
+
+#main-nav a.navbar-brand{
+    color: #fff;
+    font-family: "DroidSerif", sans-serif;
+    font-style: italic;
+}
+
+#main-nav .nav-item a {
+    color: #777;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+#main-nav .nav-item a:hover {
+    color: #0ed8d6;
+}
+
+#main-nav.scroll {
+    color: rgba(14, 216, 214, 0.75)
+}
+
+#main-nav.scroll .nav-item a:hover {
+    color: #777;
+}
+
+
+
+
+
+
+
+/*GENERAL NAVIGAION - END*/
+
+
+
+/*
+nav#main-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    }
+
+nav#main-nav > ul {
+    float: right;
+    margin: 0;
+}
+
+nav#main-nav > ul > li {
+    display: inline-block;
+    padding: 20px 40px;
+    
+}
+
+nav#main-nav > ul > li a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+}
+
+nav#main-nav > ul > li a:hover {
+    color: #291f1a;
+}
+
+
+
+
+
+background-image: url(../img/header/pictures_on_the_wall.jpg)
+*/
+
+
